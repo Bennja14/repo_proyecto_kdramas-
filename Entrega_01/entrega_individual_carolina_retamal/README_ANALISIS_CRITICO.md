@@ -5,4 +5,6 @@ A través de nuestro tema, me gustaría contar el impacto de una industria audio
 
 ### Ideas para contar la historia
 
-1. **Gráficos interactivos:** Para contar la historia, me gustaría incluir gráficos que sean interactivos y visualmente atractivos. Por ejemplo, un gráfico con el estilo de línea temporal dividido con imágenes de los K-Dramas más populares de cada año, y que al hacer clic en cada foto, se despliegue información relevante: en qué plataforma de streaming está disponible, cuál es el elenco principal, y cuál es el género.
+1. **Gráficos interactivos:** Para contar la historia, me gustaría incluir gráficos que sean interactivos y visualmente atractivos. Por ejemplo, un gráfico con el estilo de línea temporal dividido con imágenes de los K-Dramas más populares de cada año, y que al hacer clic en cada foto, se despliegue información relevante: en qué plataforma de streaming está disponible, cuál es el elenco principal y a qué género pertenece.
+
+2. **Diseño:** Me gustaría que el inicio de la página tenga un diseño de plataforma de streaming similar al de Viki, una de las plataformas más grandes donde se publican K-Dramas. De esta manera, este diseño puede servir como un enganche para el lector y así pueda decidir sumergirse en nuestra página.
