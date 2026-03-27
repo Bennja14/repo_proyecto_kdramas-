@@ -23,7 +23,7 @@ Sobre el método de recolección de datos, usaremos el método de web scraping, 
 
 ## Autor y publicación de los datos 
 
-WikiDrama Fandom es una enciclopedia que incluye series de televisión, películas y artistas de Asia. No tiene un autor en específico, pues es un sitio de estilo wiki donde diferentes usuarios colaboran con la redacción de información. 
+Drama Wiki Fandom es una enciclopedia que incluye series de televisión, películas y artistas de Asia. No tiene un autor en específico, pues es un sitio de estilo wiki donde diferentes usuarios colaboran con la redacción de información. 
 
 https://drama.fandom.com/es/wiki/WikiDrama 
 
@@ -37,4 +37,4 @@ La base de datos que elegimos es valiosa para nuestro tema, ya que contiene elem
 
 ## Metodología
 
-El levantamiento de los datos en la página WikiDrama Fandom es a través de aportes colaborativo entre una comunidad de usuarios que publica información sobre series y películas asiáticas. Es posible que se haya buscado datos de forma manual y a través de web scraping en plataformas de streaming. 
+El levantamiento de los datos en la página Drama Wiki Fandom es a través de aportes colaborativo entre una comunidad de usuarios que publica información sobre series y películas asiáticas. Es posible que se haya buscado datos de forma manual y a través de web scraping en plataformas de streaming. 
