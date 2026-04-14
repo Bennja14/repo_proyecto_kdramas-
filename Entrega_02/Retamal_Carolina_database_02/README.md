@@ -24,7 +24,8 @@ Fue elegida porque se optó por la consulta directa a los contenidos de la plata
 
 Fue elegida porque responde justamente a nuestra necesidad de acceder a variables importantes como la disponibilidad de K-Dramas en sitios de streaming globales. En base a estos datos se construyó el universo en el que trabajaremos como equipo, donde cada uno realizó su propia verificación a la variable que cada uno escogió. En mi caso, hice la limpieza de la variable de Prime Video. 
 
-Preguntas que se pueden responder
+## Preguntas que se pueden responder
+
 1. ¿A partir de qué año comenzó Prime Video Chile a incluir K-Dramas en su catálogo?
 2. ¿Cómo ha evolucionado la presencia de K-Dramas en plataformas de streaming en Chile entre 2016 y 2025?
 3. ¿Qué plataforma concentra la mayor cantidad de K-Dramas disponibles en Chile: Netflix, Viki, Prime Video o Disney+?
