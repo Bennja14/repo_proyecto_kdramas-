@@ -4,7 +4,7 @@ Las plataformas de streaming han sido un factor clave en la globalización de lo
 
 ## Preguntas de investigación actuales:
 
-¿Cuántos k-dramas distribuidos por Netflix superan las 9 estrellas de rating? - ¿Qué cadenas de distribución o plataformas concentran una mayor cantidad de k-dramas? Y de estas, ¿cuáles tienen los k-dramas con mejor rating? 
+¿Qué cadenas de distribución o plataformas concentran una mayor cantidad de k-dramas? Y de estas, ¿cuáles tienen los k-dramas con mejor rating? - ¿Cuántos k-dramas distribuidos por Netflix superan las 9 estrellas de rating?
 
 ## Avance de su proyecto en relación con la hipótesis y preguntas de investigación: 
 
