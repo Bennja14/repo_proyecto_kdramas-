@@ -2,9 +2,9 @@
 
 ## Historial de procesos y decisiones
 
-La base de datos que usamos abarca los K-Dramas lanzados entre los años 2016 y 2025, donde incluye las siguientes variables: nombre del K-Drama, año de lanzamiento, número de episodios, calificaciones de usuarios, y su disponibilidad en cuatro plataformas de streaming global, Netflix, Viki, Amazon Prime Video y Disney+. Todos estos datos corresponden a una recopilación de datos de las páginas AsianWiki y MyDramaList -bases de datos online dedicadas a las películas y series asiáticas-, siendo esta última donde se identificaron las calificaciones agregadas por una comunidad de usuarios.
+La base de datos que usamos como equipo abarca los K-Dramas lanzados entre los años 2016 y 2025, donde incluye las siguientes variables: nombre del K-Drama, año de lanzamiento, número de episodios, calificaciones de usuarios, y su disponibilidad en cuatro plataformas de streaming global, Netflix, Viki, Amazon Prime Video y Disney+. Todos estos datos corresponden a una recopilación de datos de las páginas AsianWiki y MyDramaList -bases de datos online dedicadas a las películas y series asiáticas-, siendo esta última donde se identificaron las calificaciones agregadas por una comunidad de usuarios.
 
-El proceso de limpieza que realicé corresponde a la variable de disponibilidad en la plataforma Amazon Prime Video, la cual fue trabajada de manera manual.
+Cada uno de nosotros realizó un proceso de limpieza a una variable. En mi caso, la que realicé corresponde a la variable de disponibilidad en la plataforma Amazon Prime Video, la cual fue trabajada de manera manual.
 
 Al analizar la base de datos que encontramos, se identificó un problema en los datos entregados por la variable de Prime Video, pues estaban sin verificar y no coincidían con la disponibilidad real de cada K-Drama en la plataforma. Como la disponibilidad de películas y series en las plataformas de streaming varía según el país en que uno está, se tomó la decisión de verificar si realmente se encuentra disponible en Chile.
 
