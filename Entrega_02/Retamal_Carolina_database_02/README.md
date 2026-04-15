@@ -26,6 +26,6 @@ Fue elegida porque responde justamente a nuestra necesidad de acceder a variable
 
 ## Preguntas que se pueden responder
 
-1. ¿A partir de qué año comenzó Prime Video Chile a incluir K-Dramas en su catálogo?
+1. ¿A partir de qué año comenzó Prime Video a incluir K-Dramas en su catálogo?
 2. ¿Cómo ha evolucionado la presencia de K-Dramas en plataformas de streaming en Chile entre 2016 y 2025?
-3. ¿Qué plataforma concentra la mayor cantidad de K-Dramas disponibles en Chile: Netflix, Viki, Prime Video o Disney+?
+3. ¿Qué plataforma concentra la mayor cantidad de K-Dramas disponibles: Netflix, Viki, Prime Video o Disney+?
