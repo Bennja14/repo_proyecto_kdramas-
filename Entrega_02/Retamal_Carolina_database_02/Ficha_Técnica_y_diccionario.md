@@ -18,8 +18,10 @@ El alcance de la base de datos abarca 10 años, desde el 2016 hasta 2025. Este p
 
 Todos los datos utilizados de la base corresponden a información de dominio público.
 La base de datos contiene los siguientes tipos de variables:
-Datos cualitativos: Títulos de los K-Dramas, nombre de las plataformas disponibles (Netflix, Viki, Prime Video, Disney+)
-Datos cuantitativos: Año de estreno, número de episodios, calificaciones de usuarios
+
+* Datos cualitativos: Títulos de los K-Dramas, nombre de las plataformas disponibles (Netflix, Viki, Prime Video, Disney+)
+
+* Datos cuantitativos: Año de estreno, número de episodios, calificaciones de usuarios
 
 ## Otras observaciones que tengan sobre la base.
 
