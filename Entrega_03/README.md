@@ -6,7 +6,7 @@ Las plataformas de streaming han facilitado la distribución de los K-Dramas en 
 
 ## Preguntas de investigación actuales:
 
-¿Qué plataformas concentran una mayor cantidad de oferta de k-dramas para Chile? Y de estas, ¿cuáles tienen los k-dramas con mejor rating o más buscados en Google Trends? 
+¿Qué plataformas concentran una mayor cantidad de oferta de k-dramas para Chile? Y de estas, ¿cuáles son los k-dramas con más rating? ¿Cuáles son las cadenas con mayor cantidad de producciones? ¿Cuáles son los 10 k-dramas más buscados en Chile en los últimos 30 días?
 
 ## Avance de su proyecto en relación con la hipótesis y preguntas de investigación: 
 
