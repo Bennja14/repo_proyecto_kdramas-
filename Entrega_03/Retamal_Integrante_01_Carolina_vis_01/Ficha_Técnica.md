@@ -21,3 +21,5 @@ Se seleccionaron variables para construir la visualización enfocándose en: tem
 # Observaciones 
 
 Dentro de lo analizado, Prime Video y Disney+ comienzan a registrar disponibilidad de K-dramas del 2021, mientras que Netflix y Viki mantienen su presencia durante todo el período.
+
+También se evidencia un aumento de la disponibilidad en las plataformas con K-Dramas desde 2020 en adelante, coincidiendo con la expansión del streaming y el aumento de su consumo durante la pandemia del COVID-19.
