@@ -4,9 +4,16 @@ La crónica por su parte es el texto que acompaña y complementa la visualizaci�
 # El boom de los K-dramas y su expansión internacional
 
 La industria de los K-Dramas ha experimentado un crecimiento sólido durante la última década, consolidándose como uno de los productos culturales más influyentes de la ola coreana o Hallyu. En un comienzo parecía ser un fenómeno limitado a nichos específicos de fanáticos de la cultura asiática, pero hoy se ha demostrado todo lo contrario. Ya forma parte del consumo audiovisual cotidiano de millones de personas alrededor del mundo, incluyendo Chile.
+
 La visualización realizada a partir de la base de datos de producciones entre 2016 y 2025 permite observar cómo este crecimiento no ha sido momentáneo, más bien es constante a lo largo de los años.
+
 Como muestra el gráfico, los años 2022 y 2025 concentran la mayor cantidad de producciones de K-Dramas dentro de la muestra analizada, alcanzando 39 producciones cada uno. Ambos años aparecen destacados en color morado, representando el punto más alto de producción registrado en el período que analizamos. En contraste, el año 2016 presenta la cifra más baja, con 29 producciones, evidenciando una diferencia considerable respecto a los años más recientes.
+
 Aunque la diferencia puede parecer moderada, el gráfico evidencia una tendencia de crecimiento estable en la producción de dramas coreanos. Esto demuestra cómo la industria audiovisual surcoreana ha logrado expandirse internacionalmente, rompiendo todas las barreras de manera sólida, especialmente a partir de la masificación de las plataformas de streaming durante los últimos años.
+
 El aumento registrado en 2022 coincide con un período de consolidación global del streaming tras la pandemia del COVID-19. Durante esos años, el consumo audiovisual digital aumentó significativamente, favoreciendo la circulación internacional de producciones no occidentales. Comenzaron a posicionarse dentro de rankings y las redes sociales, generando un interés que iba cada vez en aumento.
+
 El caso de que 2025 vuelva a alcanzar el mismo peak de 39 producciones sugiere que este fenómeno no corresponde únicamente a una tendencia temporal impulsada por el contexto pandémico, sino a una consolidación ya más estable en la industria cinematográfica.
-**¿Y Chile?** No se quedó atrás de este fenómeno, porque también se refleja un creciente interés digital y mediático por las producciones coreanas. Actualmente, los K-Dramas forman parte de conversaciones habituales en redes sociales, rankings de plataformas de streaming como Netflix y tendencias de búsqueda en navegadores.
+
+**¿Y Chile?**
+No se quedó atrás de este fenómeno, porque también se refleja un creciente interés digital y mediático por las producciones coreanas. Actualmente, los K-Dramas forman parte de conversaciones habituales en redes sociales, rankings de plataformas de streaming como Netflix y tendencias de búsqueda en navegadores.
