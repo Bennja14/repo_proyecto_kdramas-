@@ -1,6 +1,6 @@
 # Ficha técnica de la base de datos
 
-# Característica de los datos
+# Características de los datos
 
 La base de datos utilizada es de la entrega pasada que registra los K-Dramas producidos entre 2016 y 2025, y su disponibilidad en plataformas de streaming accesibles desde Chile. Fue reducida específicamente para responder a la incógnita del crecimiento de los K-dramas en plataformas de streaming disponibles en Chile y su posible relación con un efecto post-pandemia.
 
