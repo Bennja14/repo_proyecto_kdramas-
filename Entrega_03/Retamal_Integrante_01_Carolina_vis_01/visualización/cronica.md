@@ -1,19 +1,11 @@
-
-La crónica por su parte es el texto que acompaña y complementa la visualización que realizarán. Debe tener entre 2 mil y 4 mil caracteres
-
-# El boom de los K-dramas y su expansión internacional
+# El crecimiento de los K-Dramas y su boom en Chile
 
 La industria de los K-Dramas ha experimentado un crecimiento sólido durante la última década, consolidándose como uno de los productos culturales más influyentes de la ola coreana o Hallyu. En un comienzo parecía ser un fenómeno limitado a nichos específicos de fanáticos de la cultura asiática, pero hoy se ha demostrado todo lo contrario. Ya forma parte del consumo audiovisual cotidiano de millones de personas alrededor del mundo, incluyendo Chile.
 
-La visualización realizada a partir de la base de datos de producciones entre 2016 y 2025 permite observar cómo este crecimiento no ha sido momentáneo, más bien es constante a lo largo de los años.
+La visualización fue realizada a partir de producciones entre 2016 y 2025, y su disponibilidad en plataformas de streaming en Chile. Esto permite observar cómo este crecimiento no ha sido momentáneo, más bien es constante a lo largo de los años. También evidencia qué plataformas participaron en este crecimiento y cómo el streaming se convirtió en un actor clave internacionalmente y dentro de los catálogos disponibles para el público chileno.
 
-Como muestra el gráfico, los años 2022 y 2025 concentran la mayor cantidad de producciones de K-Dramas dentro de la muestra analizada, alcanzando 39 producciones cada uno. Ambos años aparecen destacados en color morado, representando el punto más alto de producción registrado en el período que analizamos. En contraste, el año 2016 presenta la cifra más baja, con 29 producciones, evidenciando una diferencia considerable respecto a los años más recientes.
+Como muestra el gráfico, los años posteriores a 2020 presentan una mayor cantidad de K-Dramas disponibles en servicios de streaming en Chile . Este aumento coincide con el período de consolidación del consumo online durante la pandemia del COVID-19, momento en que las personas comenzaron a usar con mayor frecuencia estos servicios.
 
-Aunque la diferencia puede parecer moderada, el gráfico evidencia una tendencia de crecimiento estable en la producción de dramas coreanos. Esto demuestra cómo la industria audiovisual surcoreana ha logrado expandirse internacionalmente, rompiendo todas las barreras de manera sólida, especialmente a partir de la masificación de las plataformas de streaming durante los últimos años.
+Las plataformas Netflix, Viki, Prime Video y Disney+ son actores fundamentales en la distribución de K-Dramas durante los últimos años. Sin embargo, el gráfico evidencia especialmente el crecimiento de Netflix dentro del mercado nacional, concentrando gran parte de las producciones disponibles para audiencias chilenas, en competencia directa con Viki. También muestra un cambio importante en la participación de las plataformas a partir de 2021. Tanto Prime Video como Disney+ comienzan a incorporar K-Dramas recién de ese año. Esto refleja cómo las plataformas globales comenzaron progresivamente a competir por el contenido coreano tras el aumento internacional de su popularidad.
 
-El aumento registrado en 2022 coincide con un período de consolidación global del streaming tras la pandemia del COVID-19. Durante esos años, el consumo audiovisual digital aumentó significativamente, favoreciendo la circulación internacional de producciones no occidentales. Comenzaron a posicionarse dentro de rankings y las redes sociales, generando un interés que iba cada vez en aumento.
-
-El caso de que 2025 vuelva a alcanzar el mismo peak de 39 producciones sugiere que este fenómeno no corresponde únicamente a una tendencia temporal impulsada por el contexto pandémico, sino a una consolidación ya más estable en la industria cinematográfica.
-
-**¿Y Chile?**
-No se quedó atrás de este fenómeno, porque también se refleja un creciente interés digital y mediático por las producciones coreanas. Actualmente, los K-Dramas forman parte de conversaciones habituales en redes sociales, rankings de plataformas de streaming como Netflix y tendencias de búsqueda en navegadores.
+El crecimiento responde a una mayor producción audiovisual surcoreana y también a un cambio en las estrategias de distribución internacional de las plataformas. Actualmente, las plataformas digitales permiten acceder a estrenos, subtítulos en español e incluso doblajes, eliminando las barreras idiomáticas que antes limitaban su alcance a partir de la masificación de las plataformas de streaming durante los últimos años.
