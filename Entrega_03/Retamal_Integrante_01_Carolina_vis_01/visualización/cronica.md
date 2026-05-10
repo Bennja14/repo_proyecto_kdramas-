@@ -1,4 +1,4 @@
-# El crecimiento de los K-Dramas y su boom en Chile
+# el crecimiento de  K-Dramas en plataformas de streaming en Chile
 
 La industria de los K-Dramas ha experimentado un crecimiento sólido durante la última década, consolidándose como uno de los productos culturales más influyentes de la ola coreana o Hallyu. En un comienzo parecía ser un fenómeno limitado a nichos específicos de fanáticos de la cultura asiática, pero hoy se ha demostrado todo lo contrario. Ya forma parte del consumo audiovisual cotidiano de millones de personas alrededor del mundo, incluyendo Chile.
 
