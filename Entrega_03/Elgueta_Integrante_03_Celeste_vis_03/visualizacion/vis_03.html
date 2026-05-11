@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line"}, "encoding": {"color": {"field": "platform", "title": "Plataforma", "type": "nominal"}, "opacity": {"condition": {"param": "param_8", "value": 1}, "value": 0.2}, "strokeWidth": {"condition": {"param": "param_8", "value": 4}, "value": 2}, "tooltip": [{"field": "release_year", "title": "A\u00f1o", "type": "ordinal"}, {"field": "platform", "title": "Plataforma", "type": "nominal"}, {"field": "avg_rating", "format": ".2f", "title": "Rating promedio", "type": "quantitative"}, {"field": "kdrama_count", "title": "Cantidad de K-dramas", "type": "quantitative"}], "x": {"field": "release_year", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "avg_rating", "title": "Rating promedio", "type": "quantitative"}}, "name": "view_3", "title": "Evoluci\u00f3n del rating promedio de K-dramas seg\u00fan plataforma (2016-2025)"}, {"mark": {"type": "point", "filled": true, "size": 80}, "encoding": {"color": {"condition": {"param": "param_8", "field": "platform", "type": "nominal"}, "value": "lightgray"}, "opacity": {"condition": {"param": "param_8", "value": 1}, "value": 0}, "tooltip": [{"field": "release_year", "title": "A\u00f1o", "type": "ordinal"}, {"field": "platform", "title": "Plataforma", "type": "nominal"}, {"field": "avg_rating", "format": ".2f", "title": "Rating promedio", "type": "quantitative"}, {"field": "kdrama_count", "title": "Cantidad de K-dramas", "type": "quantitative"}], "x": {"field": "release_year", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "avg_rating", "title": "Rating promedio", "type": "quantitative"}}, "title": "Evoluci\u00f3n del rating promedio de K-dramas seg\u00fan plataforma (2016-2025)"}], "data": {"name": "data-8ea37ead2d8c47b30b90f9b26810c5f7"}, "height": 450, "params": [{"name": "param_9", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales", "views": ["view_3"]}, {"name": "param_8", "select": {"type": "point", "fields": ["platform"], "nearest": true, "on": "mouseover"}, "views": ["view_3"]}], "width": 750, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-8ea37ead2d8c47b30b90f9b26810c5f7": [{"release_year": 2016, "platform": "netflix", "avg_rating": 8.042857142857143, "kdrama_count": 14}, {"release_year": 2016, "platform": "prime_video", "avg_rating": 8.106666666666666, "kdrama_count": 15}, {"release_year": 2016, "platform": "viu", "avg_rating": 8.241666666666667, "kdrama_count": 12}, {"release_year": 2017, "platform": "netflix", "avg_rating": 7.98695652173913, "kdrama_count": 23}, {"release_year": 2017, "platform": "prime_video", "avg_rating": 8.073333333333332, "kdrama_count": 15}, {"release_year": 2017, "platform": "viu", "avg_rating": 8.064705882352941, "kdrama_count": 17}, {"release_year": 2018, "platform": "netflix", "avg_rating": 8.166666666666666, "kdrama_count": 15}, {"release_year": 2018, "platform": "prime_video", "avg_rating": 7.927272727272728, "kdrama_count": 11}, {"release_year": 2018, "platform": "viu", "avg_rating": 8.136363636363637, "kdrama_count": 11}, {"release_year": 2019, "platform": "netflix", "avg_rating": 8.275, "kdrama_count": 16}, {"release_year": 2019, "platform": "prime_video", "avg_rating": 7.872727272727272, "kdrama_count": 11}, {"release_year": 2019, "platform": "viu", "avg_rating": 7.872727272727274, "kdrama_count": 11}, {"release_year": 2020, "platform": "netflix", "avg_rating": 8.063157894736841, "kdrama_count": 19}, {"release_year": 2020, "platform": "prime_video", "avg_rating": 8.014285714285714, "kdrama_count": 14}, {"release_year": 2020, "platform": "viu", "avg_rating": 7.9173913043478255, "kdrama_count": 23}, {"release_year": 2021, "platform": "disney_plus", "avg_rating": 8.4, "kdrama_count": 1}, {"release_year": 2021, "platform": "netflix", "avg_rating": 8.139999999999999, "kdrama_count": 15}, {"release_year": 2021, "platform": "prime_video", "avg_rating": 7.908333333333334, "kdrama_count": 12}, {"release_year": 2021, "platform": "viu", "avg_rating": 7.933333333333334, "kdrama_count": 12}, {"release_year": 2022, "platform": "disney_plus", "avg_rating": 7.914285714285714, "kdrama_count": 7}, {"release_year": 2022, "platform": "netflix", "avg_rating": 8.292857142857143, "kdrama_count": 14}, {"release_year": 2022, "platform": "prime_video", "avg_rating": 7.760000000000001, "kdrama_count": 15}, {"release_year": 2022, "platform": "viu", "avg_rating": 8.36, "kdrama_count": 5}, {"release_year": 2023, "platform": "disney_plus", "avg_rating": 8.6, "kdrama_count": 5}, {"release_year": 2023, "platform": "netflix", "avg_rating": 8.1375, "kdrama_count": 16}, {"release_year": 2023, "platform": "prime_video", "avg_rating": 7.809090909090909, "kdrama_count": 11}, {"release_year": 2023, "platform": "viu", "avg_rating": 8.185714285714285, "kdrama_count": 7}, {"release_year": 2024, "platform": "disney_plus", "avg_rating": 7.9, "kdrama_count": 2}, {"release_year": 2024, "platform": "netflix", "avg_rating": 7.885714285714286, "kdrama_count": 14}, {"release_year": 2024, "platform": "prime_video", "avg_rating": 7.483333333333333, "kdrama_count": 6}, {"release_year": 2024, "platform": "viu", "avg_rating": 8.171428571428573, "kdrama_count": 7}, {"release_year": 2025, "platform": "disney_plus", "avg_rating": 7.9799999999999995, "kdrama_count": 5}, {"release_year": 2025, "platform": "netflix", "avg_rating": 8.28125, "kdrama_count": 16}, {"release_year": 2025, "platform": "prime_video", "avg_rating": 7.553846153846153, "kdrama_count": 13}, {"release_year": 2025, "platform": "viu", "avg_rating": 8.0, "kdrama_count": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
