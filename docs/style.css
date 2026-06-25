@@ -1,4 +1,4 @@
-font-family: 'Hahmlet', serif;
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
 
 .parent {
     display: grid;
@@ -16,7 +16,6 @@ font-family: 'Hahmlet', serif;
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background: #f8f6f2;
   color: #2f2f2f;
 }
