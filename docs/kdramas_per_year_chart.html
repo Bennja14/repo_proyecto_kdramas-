@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-2a7cfb6a8db184c0717d686ff9507c89"}, "mark": {"type": "bar"}, "encoding": {"tooltip": [{"field": "Year", "type": "quantitative"}, {"field": "Number of KDramas", "type": "quantitative"}], "x": {"field": "Year", "title": "Year", "type": "ordinal"}, "y": {"field": "Number of KDramas", "title": "Number of KDramas", "type": "quantitative"}}, "title": "Number of KDramas per Year", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-2a7cfb6a8db184c0717d686ff9507c89": [{"Year": 1969, "Number of KDramas": 2}, {"Year": 1970, "Number of KDramas": 1}, {"Year": 1971, "Number of KDramas": 2}, {"Year": 1972, "Number of KDramas": 3}, {"Year": 1973, "Number of KDramas": 4}, {"Year": 1974, "Number of KDramas": 2}, {"Year": 1975, "Number of KDramas": 3}, {"Year": 1976, "Number of KDramas": 4}, {"Year": 1977, "Number of KDramas": 4}, {"Year": 1978, "Number of KDramas": 5}, {"Year": 1979, "Number of KDramas": 5}, {"Year": 1980, "Number of KDramas": 4}, {"Year": 1981, "Number of KDramas": 7}, {"Year": 1982, "Number of KDramas": 6}, {"Year": 1983, "Number of KDramas": 9}, {"Year": 1984, "Number of KDramas": 5}, {"Year": 1985, "Number of KDramas": 7}, {"Year": 1986, "Number of KDramas": 5}, {"Year": 1987, "Number of KDramas": 11}, {"Year": 1988, "Number of KDramas": 11}, {"Year": 1989, "Number of KDramas": 13}, {"Year": 1990, "Number of KDramas": 16}, {"Year": 1991, "Number of KDramas": 15}, {"Year": 1992, "Number of KDramas": 30}, {"Year": 1993, "Number of KDramas": 34}, {"Year": 1994, "Number of KDramas": 39}, {"Year": 1995, "Number of KDramas": 42}, {"Year": 1996, "Number of KDramas": 40}, {"Year": 1997, "Number of KDramas": 35}, {"Year": 1998, "Number of KDramas": 48}, {"Year": 1999, "Number of KDramas": 48}, {"Year": 2000, "Number of KDramas": 54}, {"Year": 2001, "Number of KDramas": 50}, {"Year": 2002, "Number of KDramas": 60}, {"Year": 2003, "Number of KDramas": 60}, {"Year": 2004, "Number of KDramas": 63}, {"Year": 2005, "Number of KDramas": 77}, {"Year": 2006, "Number of KDramas": 82}, {"Year": 2007, "Number of KDramas": 91}, {"Year": 2008, "Number of KDramas": 95}, {"Year": 2009, "Number of KDramas": 68}, {"Year": 2010, "Number of KDramas": 88}, {"Year": 2011, "Number of KDramas": 91}, {"Year": 2012, "Number of KDramas": 106}, {"Year": 2013, "Number of KDramas": 101}, {"Year": 2014, "Number of KDramas": 129}, {"Year": 2015, "Number of KDramas": 150}, {"Year": 2016, "Number of KDramas": 182}, {"Year": 2017, "Number of KDramas": 213}, {"Year": 2018, "Number of KDramas": 238}, {"Year": 2019, "Number of KDramas": 267}, {"Year": 2020, "Number of KDramas": 239}, {"Year": 2021, "Number of KDramas": 275}, {"Year": 2022, "Number of KDramas": 254}, {"Year": 2023, "Number of KDramas": 206}, {"Year": 2024, "Number of KDramas": 161}, {"Year": 2025, "Number of KDramas": 154}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
