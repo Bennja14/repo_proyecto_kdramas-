@@ -1,5 +1,4 @@
-<script>
-  const slides = document.querySelector(".slides");
+const slides = document.querySelector(".slides");
 const dots = document.querySelectorAll(".dot");
 const totalSlides = document.querySelectorAll(".frame").length;
 
@@ -22,5 +21,3 @@ function updateCarousel() {
     dot.classList.toggle("active", i === index);
   });
 }
-
-</script>
