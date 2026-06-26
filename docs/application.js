@@ -16,7 +16,7 @@
   });
 
   function updateCarousel() {
-    slides.style.transform = ⁠ translateX(-${index * 100}%) ⁠;
+    slides.style.transform = `translateX(-${index * 100}%)`;
 
     dots.forEach((dot, i) => {
       dot.classList.toggle("active", i === index);
