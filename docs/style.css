@@ -68,12 +68,16 @@ body {
 }
 
 .search {
-  border: none;
-  background: #d9bcd9;
-  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 52px;
   height: 52px;
+  border-radius: 50%;
+  background: #d9bcd9;
+  text-decoration: none;
   font-size: 22px;
+  color: black;
 }
 
 .page {
