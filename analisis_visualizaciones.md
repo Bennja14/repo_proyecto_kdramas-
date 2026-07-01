@@ -1,0 +1,3 @@
+# Análisis de las visualizaciones 
+
+- **Gráfico tipo TreeMap sobre cantidad de Kdramas por cada plataforma**: En este gráfico, la idea era mostrar cuantos kdramas tiene cada plataforma de streaming dentro de su catálogo. La arista que busca trabaajar esta visualización es que las plataformas de streaming han entrado de lleno en los kdramas, especialmente tras la tercera ola coreana o _Hallyu_. En ese sentido, podemos concluir que, actualmente, las plataformas 
