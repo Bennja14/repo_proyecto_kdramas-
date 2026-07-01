@@ -20,4 +20,13 @@ function updateCarousel() {
   dots.forEach((dot, i) => {
     dot.classList.toggle("active", i === index);
   });
+
+  const botonPregunta = document.getElementById('btn-explicacion');
+  
+
+  if (index === 2) {
+    botonPregunta.classList.add('mostrar');
+  } else {
+    botonPregunta.classList.remove('mostrar');
+  }
 }

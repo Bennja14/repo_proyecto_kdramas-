@@ -586,3 +586,30 @@ html {
 .s42 { width:180px; }
 .s43 { width:180px; }
 .s44 { width:200px; }
+
+
+.btn-pregunta {
+  display: none; 
+  margin: -30px auto 30px; 
+  padding: 12px 24px;
+  background-color: #B31257; 
+  color: white;
+  text-decoration: none;
+  font-family: 'Hahmlet', serif;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  width: max-content;
+}
+
+.btn-pregunta:hover {
+  background-color: #d9bcd9;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+.btn-pregunta.mostrar {
+  display: inline-block;
+}
