@@ -44,6 +44,18 @@
   justify-content: center; 
 }
 
+.tarjeta-drama {
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(10px); 
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease;
+}
+
+.tarjeta-drama:hover {
+  transform: translateY(-5px); /* Flota ligeramente al pasar el mouse */
+}
+
 .texto-audio {
   font-family: serif; 
   font-weight: bold;
