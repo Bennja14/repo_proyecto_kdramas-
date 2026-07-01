@@ -395,171 +395,47 @@ html {
 .s14{top:3720px;left:48px;transform:rotate(13deg);animation-duration:6s;}
 .s15{top:3990px;left:22px;transform:rotate(-6deg);animation-duration:5.5s;}
 .s16{top:4260px;left:40px;transform:rotate(11deg);animation-duration:4.5s;}
-.s33{
-
-    top:4550px;
-
-    left:18px;
-
-    transform:rotate(-10deg);
-
-    animation-duration:5.2s;
-
-}
-
-.s34{
-
-    top:4830px;
-
-    left:45px;
-
-    transform:rotate(9deg);
-
-    animation-duration:6s;
-
-}
-
-.s35{
-
-    top:5110px;
-
-    left:20px;
-
-    transform:rotate(-13deg);
-
-    animation-duration:4.8s;
-
-}
-
-.s36{
-
-    top:5390px;
-
-    left:48px;
-
-    transform:rotate(12deg);
-
-    animation-duration:5.6s;
-
-}
-
-.s37{
-
-    top:5670px;
-
-    left:18px;
-
-    transform:rotate(-8deg);
-
-    animation-duration:4.9s;
-
-}
-
-.s38{
-
-    top:5950px;
-
-    left:42px;
-
-    transform:rotate(11deg);
-
-    animation-duration:6.3s;
-
-}
+.s17{top:4540px;left:18px;transform:rotate(-9deg);animation-duration:5.4s;}
+.s18{top:4820px;left:45px;transform:rotate(12deg);animation-duration:6.1s;}
+.s19{top:5100px;left:20px;transform:rotate(-11deg);animation-duration:4.9s;}
+.s20{top:5380px;left:48px;transform:rotate(8deg);animation-duration:5.8s;}
+.s21{top:5660px;left:18px;transform:rotate(-14deg);animation-duration:6.2s;}
+.s22{top:5940px;left:42px;transform:rotate(10deg);animation-duration:5.2s;}
 
 
 /* DERECHA */
 
-.s17{top:150px;right:25px;transform:rotate(10deg);animation-duration:4.2s;}
-.s18{top:430px;right:45px;transform:rotate(-12deg);animation-duration:5.4s;}
-.s19{top:710px;right:18px;transform:rotate(8deg);animation-duration:6.1s;}
-.s20{top:990px;right:42px;transform:rotate(-8deg);animation-duration:5.2s;}
-.s21{top:1270px;right:22px;transform:rotate(15deg);animation-duration:4.9s;}
-.s22{top:1540px;right:48px;transform:rotate(-11deg);animation-duration:6.3s;}
-.s23{top:1820px;right:20px;transform:rotate(9deg);animation-duration:5.7s;}
-.s24{top:2100px;right:40px;transform:rotate(-14deg);animation-duration:4.8s;}
-.s25{top:2380px;right:15px;transform:rotate(7deg);animation-duration:6.5s;}
-.s26{top:2660px;right:44px;transform:rotate(-10deg);animation-duration:5.3s;}
-.s27{top:2940px;right:20px;transform:rotate(12deg);animation-duration:4.6s;}
-.s28{top:3220px;right:42px;transform:rotate(-7deg);animation-duration:5.8s;}
-.s29{top:3500px;right:18px;transform:rotate(13deg);animation-duration:6.2s;}
-.s30{top:3780px;right:45px;transform:rotate(-9deg);animation-duration:4.7s;}
-.s31{top:4060px;right:20px;transform:rotate(11deg);animation-duration:5.5s;}
-.s32{top:4340px;right:42px;transform:rotate(-13deg);animation-duration:6s;}
-.s39{
-
-    top:4620px;
-
-    right:20px;
-
-    transform:rotate(8deg);
-
-    animation-duration:5.1s;
-
-}
-
-.s40{
-
-    top:4900px;
-
-    right:46px;
-
-    transform:rotate(-11deg);
-
-    animation-duration:6.2s;
-
-}
-
-.s41{
-
-    top:5180px;
-
-    right:18px;
-
-    transform:rotate(13deg);
-
-    animation-duration:4.7s;
-
-}
-
-.s42{
-
-    top:5460px;
-
-    right:42px;
-
-    transform:rotate(-9deg);
-
-    animation-duration:5.8s;
-
-}
-
-.s43{
-
-    top:5740px;
-
-    right:18px;
-
-    transform:rotate(12deg);
-
-    animation-duration:6.1s;
-
-}
-
-.s44{
-
-    top:6020px;
-
-    right:44px;
-
-    transform:rotate(-12deg);
-
-    animation-duration:5.4s;
-
-}
+.s23{top:150px;right:25px;transform:rotate(10deg);animation-duration:4.2s;}
+.s24{top:430px;right:45px;transform:rotate(-12deg);animation-duration:5.4s;}
+.s25{top:710px;right:18px;transform:rotate(8deg);animation-duration:6.1s;}
+.s26{top:990px;right:42px;transform:rotate(-8deg);animation-duration:5.2s;}
+.s27{top:1270px;right:22px;transform:rotate(15deg);animation-duration:4.9s;}
+.s28{top:1540px;right:48px;transform:rotate(-11deg);animation-duration:6.3s;}
+.s29{top:1820px;right:20px;transform:rotate(9deg);animation-duration:5.7s;}
+.s30{top:2100px;right:40px;transform:rotate(-14deg);animation-duration:4.8s;}
+.s31{top:2380px;right:15px;transform:rotate(7deg);animation-duration:6.5s;}
+.s32{top:2660px;right:44px;transform:rotate(-10deg);animation-duration:5.3s;}
+.s33{top:2940px;right:20px;transform:rotate(12deg);animation-duration:4.6s;}
+.s34{top:3220px;right:42px;transform:rotate(-7deg);animation-duration:5.8s;}
+.s35{top:3500px;right:18px;transform:rotate(13deg);animation-duration:6.2s;}
+.s36{top:3780px;right:45px;transform:rotate(-9deg);animation-duration:4.7s;}
+.s37{top:4060px;right:20px;transform:rotate(11deg);animation-duration:5.5s;}
+.s38{top:4340px;right:42px;transform:rotate(-13deg);animation-duration:6s;}
+.s39{top:4620px;right:18px;transform:rotate(9deg);animation-duration:4.8s;}
+.s40{top:4900px;right:46px;transform:rotate(-11deg);animation-duration:5.9s;}
+.s41{top:5180px;right:20px;transform:rotate(12deg);animation-duration:6.4s;}
+.s42{top:5460px;right:40px;transform:rotate(-8deg);animation-duration:5.1s;}
+.s43{top:5740px;right:18px;transform:rotate(14deg);animation-duration:6.2s;}
+.s44{top:6020px;right:44px;transform:rotate(-12deg);animation-duration:5.6s;}
 
 .stickers{
-    min-height:100%;
-    height:7000px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:6300px;
+    pointer-events:none;
+    overflow:hidden;
+    z-index:2;
 }
 
