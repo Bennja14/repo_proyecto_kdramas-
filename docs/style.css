@@ -36,6 +36,14 @@
  
 }
 
+.bloque-audio-texto {
+  margin-top: 15px;    
+  margin-bottom: 20px; 
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+
 .texto-audio {
   font-family: serif; 
   font-weight: bold;
