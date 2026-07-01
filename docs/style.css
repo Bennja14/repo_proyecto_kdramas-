@@ -18,6 +18,51 @@
   max-width: 100%;
   }
 
+titulo-drama {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; 
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+
+.texto-reportaje {
+    font-size: 1rem;
+    line-height: 1.6; 
+    color: #b3b3b3; 
+    text-align: left; 
+}
+
+.flecha-carrusel {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.flecha-carrusel:hover {
+    background: #ff4a75; 
+    transform: scale(1.1);
+}
+
+.imagen-carrusel img {
+    border-radius: 12px; /* Redondear las esquinas de la foto de los actores */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.contenedor-principal { 
+    background: rgba(255, 255, 255, 0.03); 
+    border: 1px solid rgba(255, 255, 255, 0.08); 
+    border-radius: 16px; 
+    backdrop-filter: blur(12px); 
+    padding: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
+}
+
 .imagen-fondo {
   display: block;
   width: 100%;
