@@ -512,6 +512,17 @@ html {
 
 }
 
+.s1{
+
+    width:200px;
+
+    top:80px;
+    left:18px;
+
+    transform:rotate(-10deg);
+
+}
+
 .sticker:hover{
 
     transform:scale(1.15);
