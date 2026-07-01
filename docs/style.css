@@ -63,9 +63,10 @@
 }
 
 body {
-  margin: 0;
-  background: #f8f6f2;
-  color: #2f2f2f;
+    background-color: #0d0e12; 
+    color: #f0f0f5; 
+    margin: 0;
+    padding: 0;
 }
 
 .topbar {
@@ -135,11 +136,9 @@ body {
   padding: 40px 60px 80px;
 }
 
-.hero{
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+.hero {
+  position: relative;
+  text-align: center;
 }
 
 .frame {
