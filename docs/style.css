@@ -317,12 +317,42 @@ html {
   margin: 0 6px;
 }
 
-.text-section {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #355c7d;
-  padding: 40px;
-  font-size: 20px;
-  line-height: 1.6;
+.text-section{
+
+    background:#1a1c23;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:0 8px 24px rgba(0,0,0,.5);
+
+    border-radius:12px;
+
+    padding:40px;
+
+    margin-bottom:60px;
+
+}
+
+.text-section h2{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.text-section p{
+
+    color:#f0f0f5;
+
+}
+
+.grafico-altair{
+
+    margin-top:35px;
+
+    border-radius:12px;
+
 }
 
 .stickers{
