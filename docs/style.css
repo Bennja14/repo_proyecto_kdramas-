@@ -223,14 +223,23 @@ html {
 }
 
 .grafico-altair {
-  width: 100%;
-  height: 600px; 
-  border: none;
-  margin-top: 30px;
-  background: white; 
-  border-radius: 12px;
-  display: block;
-  box-sizing: border-box; 
+
+    width:90%;
+
+    height:450px;
+
+    margin:35px auto;
+
+    display:block;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:white;
+
+    box-sizing:border-box;
+
 }
 
 
@@ -518,3 +527,10 @@ html {
 
 }
 
+.flourish-embed{
+
+    width:85%;
+
+    margin:40px auto;
+
+}
