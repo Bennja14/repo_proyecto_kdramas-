@@ -324,3 +324,105 @@ html {
   font-size: 20px;
   line-height: 1.6;
 }
+
+
+.stickers{
+
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:4200px;   
+
+    pointer-events:none;
+    overflow:hidden;
+    z-index:2;
+
+}
+
+.sticker{
+
+    position:absolute;
+
+    width:80px;
+
+    opacity:.95;
+
+    transition:.35s;
+
+    animation:flotar ease-in-out infinite;
+
+}
+
+.sticker:hover{
+
+    transform:scale(1.15);
+
+}
+
+@keyframes flotar{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+/* IZQUIERDA */
+
+.s1{top:80px;left:20px;transform:rotate(-10deg);animation-duration:4s;}
+.s2{top:350px;left:45px;transform:rotate(8deg);animation-duration:5s;}
+.s3{top:650px;left:15px;transform:rotate(-15deg);animation-duration:6s;}
+.s4{top:930px;left:40px;transform:rotate(12deg);animation-duration:5.5s;}
+.s5{top:1200px;left:18px;transform:rotate(-7deg);animation-duration:4.7s;}
+.s6{top:1480px;left:50px;transform:rotate(10deg);animation-duration:5.8s;}
+.s7{top:1760px;left:22px;transform:rotate(-11deg);animation-duration:4.9s;}
+.s8{top:2050px;left:42px;transform:rotate(14deg);animation-duration:6.2s;}
+.s9{top:2320px;left:18px;transform:rotate(-8deg);animation-duration:5.3s;}
+.s10{top:2600px;left:46px;transform:rotate(7deg);animation-duration:4.8s;}
+.s11{top:2880px;left:15px;transform:rotate(-13deg);animation-duration:6.4s;}
+.s12{top:3160px;left:40px;transform:rotate(9deg);animation-duration:5.1s;}
+.s13{top:3440px;left:18px;transform:rotate(-12deg);animation-duration:4.6s;}
+.s14{top:3720px;left:48px;transform:rotate(13deg);animation-duration:6s;}
+.s15{top:3990px;left:22px;transform:rotate(-6deg);animation-duration:5.5s;}
+.s16{top:4260px;left:40px;transform:rotate(11deg);animation-duration:4.5s;}
+
+
+/* DERECHA */
+
+.s17{top:150px;right:25px;transform:rotate(10deg);animation-duration:4.2s;}
+.s18{top:430px;right:45px;transform:rotate(-12deg);animation-duration:5.4s;}
+.s19{top:710px;right:18px;transform:rotate(8deg);animation-duration:6.1s;}
+.s20{top:990px;right:42px;transform:rotate(-8deg);animation-duration:5.2s;}
+.s21{top:1270px;right:22px;transform:rotate(15deg);animation-duration:4.9s;}
+.s22{top:1540px;right:48px;transform:rotate(-11deg);animation-duration:6.3s;}
+.s23{top:1820px;right:20px;transform:rotate(9deg);animation-duration:5.7s;}
+.s24{top:2100px;right:40px;transform:rotate(-14deg);animation-duration:4.8s;}
+.s25{top:2380px;right:15px;transform:rotate(7deg);animation-duration:6.5s;}
+.s26{top:2660px;right:44px;transform:rotate(-10deg);animation-duration:5.3s;}
+.s27{top:2940px;right:20px;transform:rotate(12deg);animation-duration:4.6s;}
+.s28{top:3220px;right:42px;transform:rotate(-7deg);animation-duration:5.8s;}
+.s29{top:3500px;right:18px;transform:rotate(13deg);animation-duration:6.2s;}
+.s30{top:3780px;right:45px;transform:rotate(-9deg);animation-duration:4.7s;}
+.s31{top:4060px;right:20px;transform:rotate(11deg);animation-duration:5.5s;}
+.s32{top:4340px;right:42px;transform:rotate(-13deg);animation-duration:6s;}
+
+.sticker{
+    position:absolute;
+    width:80px;
+
+    filter: drop-shadow(0 8px 12px rgba(0,0,0,.25));
+
+    animation:flotar ease-in-out infinite;
+    transition:.35s;
+}
+
