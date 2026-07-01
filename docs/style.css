@@ -395,6 +395,77 @@ html {
 .s14{top:3720px;left:48px;transform:rotate(13deg);animation-duration:6s;}
 .s15{top:3990px;left:22px;transform:rotate(-6deg);animation-duration:5.5s;}
 .s16{top:4260px;left:40px;transform:rotate(11deg);animation-duration:4.5s;}
+.s33{
+
+    top:4550px;
+
+    left:18px;
+
+    transform:rotate(-10deg);
+
+    animation-duration:5.2s;
+
+}
+
+.s34{
+
+    top:4830px;
+
+    left:45px;
+
+    transform:rotate(9deg);
+
+    animation-duration:6s;
+
+}
+
+.s35{
+
+    top:5110px;
+
+    left:20px;
+
+    transform:rotate(-13deg);
+
+    animation-duration:4.8s;
+
+}
+
+.s36{
+
+    top:5390px;
+
+    left:48px;
+
+    transform:rotate(12deg);
+
+    animation-duration:5.6s;
+
+}
+
+.s37{
+
+    top:5670px;
+
+    left:18px;
+
+    transform:rotate(-8deg);
+
+    animation-duration:4.9s;
+
+}
+
+.s38{
+
+    top:5950px;
+
+    left:42px;
+
+    transform:rotate(11deg);
+
+    animation-duration:6.3s;
+
+}
 
 
 /* DERECHA */
@@ -415,14 +486,80 @@ html {
 .s30{top:3780px;right:45px;transform:rotate(-9deg);animation-duration:4.7s;}
 .s31{top:4060px;right:20px;transform:rotate(11deg);animation-duration:5.5s;}
 .s32{top:4340px;right:42px;transform:rotate(-13deg);animation-duration:6s;}
+.s39{
 
-.sticker{
-    position:absolute;
-    width:80px;
+    top:4620px;
 
-    filter: drop-shadow(0 8px 12px rgba(0,0,0,.25));
+    right:20px;
 
-    animation:flotar ease-in-out infinite;
-    transition:.35s;
+    transform:rotate(8deg);
+
+    animation-duration:5.1s;
+
+}
+
+.s40{
+
+    top:4900px;
+
+    right:46px;
+
+    transform:rotate(-11deg);
+
+    animation-duration:6.2s;
+
+}
+
+.s41{
+
+    top:5180px;
+
+    right:18px;
+
+    transform:rotate(13deg);
+
+    animation-duration:4.7s;
+
+}
+
+.s42{
+
+    top:5460px;
+
+    right:42px;
+
+    transform:rotate(-9deg);
+
+    animation-duration:5.8s;
+
+}
+
+.s43{
+
+    top:5740px;
+
+    right:18px;
+
+    transform:rotate(12deg);
+
+    animation-duration:6.1s;
+
+}
+
+.s44{
+
+    top:6020px;
+
+    right:44px;
+
+    transform:rotate(-12deg);
+
+    animation-duration:5.4s;
+
+}
+
+.stickers{
+    min-height:100%;
+    height:7000px;
 }
 
