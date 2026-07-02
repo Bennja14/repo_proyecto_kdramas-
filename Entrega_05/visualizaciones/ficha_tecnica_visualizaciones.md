@@ -63,3 +63,38 @@ La comparación muestra que las series occidentales mantienen un interés consta
 El principal hallazgo corresponde al Juego del Calamar, que alcanza el índice máximo de Google Trends (100) en octubre de 2021, convirtiéndose en el mayor nivel de interés registrado entre las producciones comparadas.
 True Beauty y Propuesta Laboral muestran que el interés por los K-Dramas no es un fenómeno aislado, sino que distintos títulos coreanos tienen peso y logran competir con series occidentales ampliamente conocidas.
 
+## Gráfico de Kdramas por año 
+
+**Características de los datos**
+
+El gráfico fue hecho a través de Google Colab con lenguaje Phyton, ocupando daatos de un webscrapping del sitio MyDramaList, abarcando kdramas desde el año 1962 hasta el 2025. 
+
+Este webscrapping incluía el título del kdrama, su fecha de emisión, su plataforma y productoora original y la plataforma de streaming donde se puede visualizar. Para la creación de este gráfico, se utilizaron únicamente las variables de título de kdrama y fecha de emisión, de donde se extrajo el año de su primera emisión para ocuparlo como la variable del año
+
+**Variables incorporadas** 
+
+- Título del kdrama: Nombre de cada kdrama presente en la base de datos 
+- Year (Año): Año de su primera emisión 
+
+**Observaciones**
+
+El gráfico nos permite visualizar que, desde 1962, ha existido un alza sostenido de producción y emisión de kdramas a lo largo de las últimas décadas, llegando a su punto máximo en el año 2021, en plena pandemia, lo que nos muestra que la industria del kdrama es una industria en alza hasta el día de hoy. 
+
+Además, nos permite ver un fenómeno interesante acerca de la caída que sufrió la producción y emisión de kdramas a partir del 2022, donde en 2025 cayeron hasta casi la mitad de lo que se había producido en 2021, lo que nos puede dar luces acerca de cómo se ha comportado la industria de los kdramas luego de su boom en 2021. 
+
+## Gráfico tipo TreeMap sobre cantidad de Kdramas por cada plataforma
+
+**Características de los datos** 
+
+La base de datos fue hecha a partir de un webscrapping en el sitio MyDramaList, de donde se recolectaron más de 4 mil kdramas junto a su fecha de emisión, su plataforma y productora original y la plataforma de streaming en la que se encuentra disponible.
+
+**Variables incorporadas**
+
+- Plataforma: Cada plataforma de streaming que tiene, a lo menos, un kdrama de la base de datos en su catálogo de visualización 
+- Cantidad de kdramas: Aquí se contabilizaron todos los kdramas que están disponibles en cada plataforma. Como hay kdramas diponibles en más de una plataforma, la cantidad final de datos en el gráfico es mayor a la cantidad de datos originales
+
+**Observaciones** 
+
+El gráfico nos permite mostrar, en primera instancia, que VIki es la plataforma que más kdramas posee en su catálogo, seguido por otras grandes plataforams como Kocowa, Disney+ o Netflix, además, destaca la cantidad de plataformas, ya que existen muchas que poseen apenas un solo kdrama, pero que igualmente existen. 
+
+Bajo esa misma línea, destaca la cantidad de kdramas que tienen las plataformas de streaming, además de la mencionada vasta oferta de plataformas, lo que nos permite concluir que el streaming capitaliza la distribución de kdramas a nivel global, además de la diversidad de kdramas repartidos en diferentes plataformas. 
