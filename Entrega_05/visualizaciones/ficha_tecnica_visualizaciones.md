@@ -98,3 +98,23 @@ La base de datos fue hecha a partir de un webscrapping en el sitio MyDramaList, 
 El gráfico nos permite mostrar, en primera instancia, que VIki es la plataforma que más kdramas posee en su catálogo, seguido por otras grandes plataforams como Kocowa, Disney+ o Netflix, además, destaca la cantidad de plataformas, ya que existen muchas que poseen apenas un solo kdrama, pero que igualmente existen. 
 
 Bajo esa misma línea, destaca la cantidad de kdramas que tienen las plataformas de streaming, además de la mencionada vasta oferta de plataformas, lo que nos permite concluir que el streaming capitaliza la distribución de kdramas a nivel global, además de la diversidad de kdramas repartidos en diferentes plataformas. 
+
+## Gráfico de líderes de distribución por Kdrama
+
+**Características de los datos** 
+
+La base de datos recopila el volumen histórico de series distribuidas por cada entidad, permitiendo analizar la concentración y el peso real de la industria local coreana frente a la internacional.
+
+- Origen de los datos: Web scraping de MyDramaList.
+
+- Formato visual: Gráfico de árbol jerárquico (Treemap).
+
+
+**Variables incorporadas**
+
+- Distribuidor: Cadena o plataforma de televisión (ej. MBC, SBS, KBS2 vs. plataformas occidentales).
+- Volumen de K-Dramas: Cantidad total de series alojadas o distribuidas por cada entidad.
+
+**Observaciones**
+
+La disposición del Treemap permite ver de forma instantánea que los bloques de mayor tamaño corresponden a las señales tradicionales coreanas (MBC, SBS y KBS2). Esta proporción demuestra visualmente que el volumen acumulado de la industria local supera con creces los catálogos de los servicios occidentales, confirmando que la soberanía de la oferta global de K-Dramas sigue estando en Corea del Sur.

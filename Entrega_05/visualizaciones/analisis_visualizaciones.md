@@ -44,3 +44,20 @@ Buscamos transmitir que los K-Dramas ya no ocupan un espacio de nicho, sino que 
 La comparación muestra que las series occidentales mantienen un interés sostenido. Sin embargo, los K-Dramas presentan momentos de alta popularidad que igualan e incluso superan temporalmente a estas producciones.
 
 El caso más evidente es el Juego del Calamar, que alcanza el índice máximo de Google Trends (100) durante su tiempo de recién estreno, posicionándose por encima de las series consideradas en ese período. Asimismo, True Beauty y Propuesta Laboral registran aumentos relevantes durante sus lanzamientos, evidenciando que los K-Dramas generan búsquedas significativas entre los usuarios chilenos.
+
+## Gráfico de líderes en distribución de Kdramas 
+
+Esta visualización compara el volumen de K-Dramas distribuidos por las principales plataformas y cadenas de televisión, utilizando registros históricos de la plataforma MyDramaList.
+
+Buscamos transmitir que, a pesar de la fuerte irrupción de las plataformas de streaming occidentales en el mercado global, el liderazgo real de la producción y de los catálogos sigue perteneciendo firmemente a las empresas tradicionales de Corea del Sur.
+
+La comparación muestra que las corporaciones coreanas como MBC, SBS y KBS2 tienen la mayor cantidad de títulos del mercado. Esto evidencia que el motor central de la industria se mantiene en su país de origen, posicionando a las multinacionales occidentales más como aliadas de difusión que como dueñas del fenómeno cultural.
+
+La visualización fue desarrollada utilizando la plantilla Treemap de Flourish. El proceso de generación detallado fue el siguiente:
+- Extracción (Web Scraping): Se obtuvieron los datos brutos del catálogo de K-Dramas directamente desde la plataforma MyDramaList mediante un script automatizado.
+- Procesamiento en Excel: La información se organizó en Excel utilizando una tabla dinámica para agrupar y contar la cantidad exacta de dramas que posee cada distribuidor.
+- Carga en Flourish: Se subió la tabla limpia a Flourish, asignando los nombres de las cadenas como etiquetas (Label) y el volumen de series como los valores (Values).
+- Personalización: Se aplicó una paleta de colores para categorizar visualmente a las empresas nativas coreanas frente a las occidentales. También se configuraron las animaciones, etiquetas y se adaptó la tipografía corporativa para alinearla a nuestra identidad visual.
+- Publicación: Finalmente, se publicó el gráfico en Flourish para obtener el código embed, el cual se incrustó directamente en la página web.
+
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/29540377"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29540377/thumbnail" width="100%" alt="hierarchy visualization" /></noscript></div>
