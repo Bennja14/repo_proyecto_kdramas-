@@ -1,0 +1,1 @@
+# Análisis del diseño de la información 
