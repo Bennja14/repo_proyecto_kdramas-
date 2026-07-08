@@ -31,131 +31,132 @@ function updateCarousel() {
   }
 }
 
+// =======================
+// BUSCADOR KDRAMAS
+// =======================
+
 const URL =
 "https://opensheet.elk.sh/1g59G7U6pMm2VCGSd9Uns352eJ3pBhzzoCACnl54_oNg/KDRAMAS%20BASE%20CUATRO%20MIL.csv";
 
 let dramas = [];
 
 fetch(URL)
-    .then(r => r.json())
+    .then(response => response.json())
     .then(data => {
 
         dramas = data;
 
         console.log("Base cargada:", dramas.length);
-        console.log(dramas[0]);
+
+    })
+    .catch(error => {
+
+        console.error("Error cargando base:", error);
 
     });
-console.log("Base cargada", dramas.length);
-.then(r => r.json())
-.then(data => {
 
-    dramas = data;
 
-    console.log("Base cargada:", dramas.length);
-
-});
+// =======================
+// PANEL LATERAL
+// =======================
 
 const panel = document.getElementById("panelBuscador");
 const overlay = document.getElementById("overlay");
 
-document.getElementById("abrirBuscador").onclick = () =>{
+document.getElementById("abrirBuscador").addEventListener("click", () => {
 
     panel.classList.add("activo");
 
-    overlay.style.display="block";
+    if (overlay) {
+        overlay.style.display = "block";
+    }
 
+});
+
+document.getElementById("cerrarBuscador").addEventListener("click", cerrar);
+
+if (overlay) {
+    overlay.addEventListener("click", cerrar);
 }
 
-document.getElementById("cerrarBuscador").onclick = cerrar;
-
-overlay.onclick = cerrar;
-
-function cerrar(){
+function cerrar() {
 
     panel.classList.remove("activo");
 
-    overlay.style.display="none";
+    if (overlay) {
+        overlay.style.display = "none";
+    }
 
 }
 
-const input=document.getElementById("buscarDrama");
 
-input.addEventListener("input",()=>{
+// =======================
+// BUSQUEDA
+// =======================
 
-    const texto=input.value.trim().toLowerCase();
+const input = document.getElementById("buscarDrama");
+const resultados = document.getElementById("resultados");
 
-    if(texto===""){
+input.addEventListener("input", () => {
 
-        resultados.innerHTML="";
+    const texto = input.value.trim().toLowerCase();
+
+    if (texto === "") {
+
+        resultados.innerHTML = "";
 
         return;
 
     }
 
-    const encontrados = dramas.filter(d => {
+    const encontrados = dramas.filter(drama => {
 
-    const titulo = (d.Title || "").toLowerCase();
+        const titulo = (drama.Title || "").toLowerCase();
 
-    return titulo.includes(texto);
-
-});
-
-    const titulo = (d.Title || "").toLowerCase();
-
-    return titulo.includes(texto);
-
-});
+        return titulo.includes(texto);
 
     });
 
-    mostrar(encontrados.slice(0,25));
+    mostrar(encontrados.slice(0, 25));
 
 });
 
-const resultados=document.getElementById("resultados");
 
-function limpiar(texto,prefijo){
+// =======================
+// RESULTADOS
+// =======================
 
-    if(!texto) return "-";
+function limpiar(valor, prefijo) {
 
-    return texto.replace(prefijo,"").trim();
+    if (!valor) return "-";
+
+    return valor.replace(prefijo, "").trim();
 
 }
 
-function mostrar(lista){
+function mostrar(lista) {
 
-    resultados.innerHTML="";
+    resultados.innerHTML = "";
 
-    if(lista.length===0){
+    if (lista.length === 0) {
 
-        resultados.innerHTML="<p>No se encontraron resultados.</p>";
-
-        return;
-
-    }
-
-    const resultados = document.getElementById("resultados");
-
-function mostrar(lista){
-
-    resultados.innerHTML="";
-
-    if(lista.length===0){
-
-        resultados.innerHTML="<p>No se encontraron resultados.</p>";
+        resultados.innerHTML = `
+            <div class="tarjeta">
+                <p>No encontramos ese K-Drama 😢</p>
+            </div>
+        `;
 
         return;
 
     }
 
-    lista.forEach(drama=>{
+    lista.forEach(drama => {
 
-        const titulo = (drama.Title || "").replace("Title: ","");
-        const episodios = (drama.Episode || "").replace("Episodes: ","");
-        const cadena = (drama["Original Network"] || "").replace("Original Network: ","");
-        const clasificacion = (drama["Content Rating"] || "").replace("Content Rating: ","");
-        const aired = (drama.Aired || "").replace("Aired: ","");
+        const titulo = limpiar(drama.Title, "Title:");
+        const episodios = limpiar(drama.Episode, "Episodes:");
+        const cadena = limpiar(drama["Original Network"], "Original Network:");
+        const clasificacion = limpiar(drama["Content Rating"], "Content Rating:");
+        const aired = limpiar(drama.Aired, "Aired:");
 
         resultados.innerHTML += `
 
@@ -163,15 +164,15 @@ function mostrar(lista){
 
             <h3>🎬 ${titulo}</h3>
 
-            <p>📅 ${drama.Year || "-"}</p>
+            <p><strong>📅 Año:</strong> ${drama.Year || "-"}</p>
 
-            <p>🎞 ${episodios}</p>
+            <p><strong>🎞 Episodios:</strong> ${episodios}</p>
 
-            <p>📺 ${cadena}</p>
+            <p><strong>📺 Cadena:</strong> ${cadena}</p>
 
-            <p>🗓 ${aired}</p>
+            <p><strong>🗓 Emisión:</strong> ${aired}</p>
 
-            <p>🔞 ${clasificacion}</p>
+            <p><strong>🔞 Clasificación:</strong> ${clasificacion}</p>
 
         </div>
 
