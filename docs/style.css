@@ -625,16 +625,18 @@ html {
   display: inline-block;
 }
 
-footer {
-    background-color: #d0d0e1;
-    height: 100px;
-    width: 100%;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
+footer{
+    background:#d0d0e1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:25px 60px;
+}
+
+footer img{
+    width:120px;
+    height:auto;
 }
 
 footer img {
