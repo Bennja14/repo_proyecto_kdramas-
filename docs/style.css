@@ -624,3 +624,22 @@ html {
 .btn-pregunta.mostrar {
   display: inline-block;
 }
+
+footer {
+    background-color: #d0d0e1;
+    height: 100px;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}
+
+footer img {
+    max-height: 100%; 
+    max-width: 100%;  
+    object-fit: contain;
+    transform: translateX(35%);
+}
