@@ -19,8 +19,5 @@ Tabla de autoría:
 |Texto webstory |X|X|
 | Botón ¿Por qué pasa esto?         |              |   X           |              |
 | Código y formato    |              |              |            X  |
-| 
-| Tweet  |           X   |              |              |
-| 
-| Lupa de Kdrama    |          X    |         X     |        X     |
-|  
+| Tweet | X| ||
+| Lupa de búsqueda Kdrama | X| X | X |
