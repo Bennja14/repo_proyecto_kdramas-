@@ -806,24 +806,20 @@ footer img {
 
 }
 
-/*=========================
-          TWEET
-==========================*/
-
 .tweet{
 
-    display:block;
+    display:block !important;
 
-    width:55%;
+    width:55% !important;
 
-    max-width:600px;
+    max-width:550px !important;
 
-    height:auto;
+    height:auto !important;
 
-    margin:40px auto;
+    margin:50px auto !important;
 
     border-radius:16px;
 
-    box-shadow:0 12px 30px rgba(0,0,0,.35);
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
 
 }
