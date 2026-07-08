@@ -37,6 +37,16 @@ const URL =
 let dramas = [];
 
 fetch(URL)
+    .then(r => r.json())
+    .then(data => {
+
+        dramas = data;
+
+        console.log("Base cargada:", dramas.length);
+        console.log(dramas[0]);
+
+    });
+console.log("Base cargada", dramas.length);
 .then(r => r.json())
 .then(data => {
 
@@ -83,9 +93,19 @@ input.addEventListener("input",()=>{
 
     }
 
-    const encontrados = dramas.filter(d=>{
+    const encontrados = dramas.filter(d => {
 
-        return d.Title.toLowerCase().includes(texto);
+    const titulo = (d.Title || "").toLowerCase();
+
+    return titulo.includes(texto);
+
+});
+
+    const titulo = (d.Title || "").toLowerCase();
+
+    return titulo.includes(texto);
+
+});
 
     });
 
@@ -109,7 +129,21 @@ function mostrar(lista){
 
     if(lista.length===0){
 
-        resultados.innerHTML="<p>No encontramos ese drama 😢</p>";
+        resultados.innerHTML="<p>No se encontraron resultados.</p>";
+
+        return;
+
+    }
+
+    const resultados = document.getElementById("resultados");
+
+function mostrar(lista){
+
+    resultados.innerHTML="";
+
+    if(lista.length===0){
+
+        resultados.innerHTML="<p>No se encontraron resultados.</p>";
 
         return;
 
@@ -117,21 +151,27 @@ function mostrar(lista){
 
     lista.forEach(drama=>{
 
+        const titulo = (drama.Title || "").replace("Title: ","");
+        const episodios = (drama.Episode || "").replace("Episodes: ","");
+        const cadena = (drama["Original Network"] || "").replace("Original Network: ","");
+        const clasificacion = (drama["Content Rating"] || "").replace("Content Rating: ","");
+        const aired = (drama.Aired || "").replace("Aired: ","");
+
         resultados.innerHTML += `
 
         <div class="tarjeta">
 
-            <h3>🎬 ${limpiar(drama.Title,"Title:")}</h3>
+            <h3>🎬 ${titulo}</h3>
 
-            <p><strong>📅 Año:</strong> ${drama.Year}</p>
+            <p>📅 ${drama.Year || "-"}</p>
 
-            <p><strong>🎞 Episodios:</strong> ${limpiar(drama.Episode,"Episodes:")}</p>
+            <p>🎞 ${episodios}</p>
 
-            <p><strong>📺 Cadena:</strong> ${limpiar(drama["Original Network"],"Original Network:")}</p>
+            <p>📺 ${cadena}</p>
 
-            <p><strong>🗓 Emisión:</strong> ${limpiar(drama.Aired,"Aired:")}</p>
+            <p>🗓 ${aired}</p>
 
-            <p><strong>🔞 Clasificación:</strong> ${limpiar(drama["Content Rating"],"Content Rating:")}</p>
+            <p>🔞 ${clasificacion}</p>
 
         </div>
 
