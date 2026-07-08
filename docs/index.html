@@ -86,9 +86,28 @@
     <a href="#seccion3">Sección 3</a>
   </nav>
 
-  <a href="https://docs.google.com/spreadsheets/d/1g59G7U6pMm2VCGSd9Uns352eJ3pBhzzoCACnl54_oNg/edit?gid=289010182#gid=289010182" target="_blank">
-    <button class="search">🔍</button>
-</a>
+<button id="abrirBuscador" class="lupa">
+    🔍
+</button>
+
+<div id="overlay"></div>
+
+<aside id="panelBuscador">
+
+    <div class="headerBuscador">
+        <h2>Busca tu K-Drama</h2>
+
+        <button id="cerrarBuscador"> </button>
+    </div>
+
+    <input
+        id="buscarDrama"
+        type="text"
+        placeholder="Ej. Goblin, Vincenzo, Reply...">
+
+    <div id="resultados"></div>
+
+</aside>
 </header>
 
 
