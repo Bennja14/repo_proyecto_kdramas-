@@ -806,17 +806,17 @@ footer img {
 
 }
 
-.tweet{
+img.tweet{
 
-    display:block !important;
+    display:block;
 
-    width:55% !important;
+    width:450px !important;
 
-    max-width:550px !important;
+    max-width:100% !important;
 
     height:auto !important;
 
-    margin:50px auto !important;
+    margin:40px auto !important;
 
     border-radius:16px;
 
